@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fictional Restaurant</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Restaurant Name</a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#menu">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section class="hero d-flex align-items-center justify-content-center text-center">
+        <div>
+            <h1>Delicious Dishes Await</h1>
+            <a href="#menu" class="btn btn-primary mt-3">Explore Menu</a>
+        </div>
+    </section>
+    <section id="menu" class="container my-5">
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="./images/dish1.jpg" class="card-img-top" alt="Dish 1"> 
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Couscous</h5>
+                        <p class="card-text">tiny, steamed semolina granules; North African staple dish.</p>
+                        <p class="card-text"><strong>$12.99</strong></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="./images/dish2.jpg" class="card-img-top" alt="Dish 2">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Dish 2</h5>
+                        <p class="card-text">delicious pizza with tomato sauce and cheese</p>
+                        <p class="card-text"><strong>$15.99</strong></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="./images/dish3.jpg" class="card-img-top" alt="Dish 3"> 
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Dish 3</h5>
+                        <p class="card-text">long, thin pasta; often served with sauce and toppings.</p>
+                        <p class="card-text"><strong>$9.99</strong></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="container my-5">
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <img src="about-image.jpg" alt="About Us" class="img-fluid"> 
+            </div>
+            <div class="col-md-6 mb-4">
+                <h2>About Us</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit amet dictum nisi. Vestibulum interdum lacus nec nisi cursus, at pharetra ligula lacinia.</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="container my-5">
+        <h2>Contact Us</h2>
+        <form>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Your Name">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Your Email">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send</button>
+        </form>
+    </section>
+
+
+    <footer class="footer bg-light py-3">
+        <div class="container text-center">
+            <p>&copy; 2024 Fictional Restaurant. All rights reserved.</p>
+            <a href="#" class="mx-2"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="mx-2"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="mx-2"><i class="fab fa-instagram"></i></a>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
